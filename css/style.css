@@ -4,6 +4,7 @@ body {
     font-family: 'Inter';
     font-style: normal;
     color: #29374E;
+    font-weight: 500;
 }
 .container {
     max-width: 1100px;
@@ -85,6 +86,7 @@ body {
 .benefit-cards__wrapper {
     display: flex;
     justify-content: space-between;
+    max-width: 1100px;
 }
 .benefit-card {
     max-width: 240px;
@@ -106,4 +108,97 @@ body {
     font-size: 20px;
     padding: 10px;
     border-radius: 25px;
+}
+
+.title {
+    font-size: 38px;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.products__title {
+    margin: 150px auto 45px auto;
+    text-align: center;
+    letter-spacing: -0.03em;
+    max-width: 500px;
+}
+.products__title--colored {
+    color: #0962E8;
+}
+
+.products__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.products__product-item {
+    background-color: #E9F6FF;
+    border-radius: 30px;
+    display: flex;
+    max-width: 502px;
+}
+.products__product-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+    margin: 37px 0 7px 20px;
+}
+.products__product-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    margin: 12px 0 0 20px;
+}
+
+.products__product-screen {
+    margin: 37px 20px -5px 0;
+    max-width: 218px;
+    filter: drop-shadow(8px -8px 16px rgba(0, 0, 0, 0.06));
+    border-radius: 20px 20px 0px 0px;
+}
+
+.offer {
+    margin: 115px 0 500px 0;
+}
+.offer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__left {
+    max-width: 500px;
+}
+.offer__title {
+    margin-top: 0;
+}
+.offer__title--colored {
+    color: #0962E8;
+}
+.offer__subtitle-text {
+    font-size: 14px;
+    line-height: 140%;
+}
+.offer__order-button {
+    margin-top: 50px;
+}
+
+.offer__right {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 500px;
+}
+.offer__benefit {
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.offer__benefit-icon {
+    margin: 11px 0 13px 20px;
+}
+.offer__benefit-text {
+    margin: 0 20px 20px 20px;
+    font-size: 14px;
+    line-height: 140%;
 }
