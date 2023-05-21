@@ -1,0 +1,187 @@
+@media (max-width: 1150px) {
+    .products__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1030px) {
+    .benefit-card__content {
+        position: relative;
+    }
+    .benefit-card__icon {
+        position: absolute;
+        top: -10px;
+    }
+    .benefit-card__text {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 865px) {
+    .benefit-cards {
+        bottom: -320px;
+    }
+    .benefit-cards__wrapper {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 15px;
+        max-width: 500px;
+    }
+    .benefit-card {
+        width: 164px;
+        font-size: 14px;
+        line-height: 140%;
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .header__logo {
+        margin-bottom: 0;
+    }
+    .logo__title {
+        font-size: 36px;
+    }
+    .logo__title--selected {
+        border-radius: 10px;
+    }
+    .header__subtitle-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .benefit-cards__wrapper {
+        max-width: 343px;
+    }
+    .benefit-card {
+        margin: 0;
+    }
+}
+
+@media (max-width: 765px) {
+    .title {
+        font-size: 24px;
+        line-height: 130%;
+        font-weight: 600;
+    }
+
+    .header {
+        height: 100%;
+    }
+    .header__main {
+        flex-direction: column-reverse;
+    }
+
+    .header__banner img {
+        max-width: 434px;
+    }
+
+    .benefit-cards {
+        position: static;
+        margin: 35px 0 0 0;
+        padding-bottom: 30px;
+    }
+    .benefit-cards__wrapper {
+        margin: 0 auto;
+    }
+
+    .products__title {
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+    .products__product-title {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .products__product-subtitle {
+        font-size: 13px;
+        line-height: 140%;
+    }
+
+    .offer__wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .offer__subtitle-text {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .offer__benefit {
+        background: #FFFFFF;
+        box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+    }
+    .offer__benefit-text {
+        font-size: 14px;
+        line-height: 140%;
+        margin: 0 12px 9px 18px;
+    }
+}
+
+@media (max-width: 515px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .products__product-item {
+        min-height: 215px;
+    }
+
+    .products__product-text {
+        width: 50%;
+    }
+    .products__product-screen {
+        margin: 37px 0px -5px 15px;
+        width: 85%;
+    }
+
+    .offer {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 470px) {
+    .container {
+        overflow: hidden;
+    }
+
+    .order-button__link {
+        display: block;
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .products__product-title {
+        margin-top: 25px;
+    }
+    .products__product-screen {
+        margin: 25px 0px -5px 15px;
+        width: 85%;
+    }
+
+    .offer__left {
+        text-align: center;
+    }
+    .offer__title {
+        margin-bottom: 5px;
+    }
+    .offer__subtitle-text {
+        margin: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        padding: 0 8px;
+    }
+
+    .benefit-cards__wrapper {
+        gap: 20px 10px;
+    }
+    .benefit-card__content {
+        padding: 10px 10px;
+    }
+}

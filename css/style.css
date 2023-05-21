@@ -14,7 +14,6 @@ body {
 }
 .header {
     background-color: #CBECFF;
-    /* height: 100vh; */
     height: 750px;
 }
 
@@ -27,6 +26,8 @@ body {
     margin-right: 15px;
     font-weight: 400;
     font-size: 14px;
+    text-decoration: none;
+    color: #29374E;
 }
 .lang-selecter__button--selected {
     background-color: #fff;
@@ -77,16 +78,23 @@ body {
     border-radius: 8px;
     padding: 15px 30px;
 }
+.order-button__link:hover {
+    background: #1672fc;
+}
+
+.header__banner img {
+    width: 100%;
+    min-width: 435px;
+}
 
 .benefit-cards {
-    position: absolute;
     width: 100%;
-    bottom: -150px;
+    margin-top: 30px;
 }
 .benefit-cards__wrapper {
     display: flex;
     justify-content: space-between;
-    max-width: 1100px;
+    gap: 5px;
 }
 .benefit-card {
     max-width: 240px;
@@ -128,13 +136,15 @@ body {
 
 .products__wrapper {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
 }
 .products__product-item {
     background-color: #E9F6FF;
     border-radius: 30px;
     display: flex;
     max-width: 502px;
+    margin: 0 5px;
 }
 .products__product-title {
     font-weight: 600;
@@ -163,7 +173,8 @@ body {
 }
 .offer__wrapper {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
 }
 
 .offer__left {
